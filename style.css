@@ -2,58 +2,186 @@
     padding: 0;
     margin: 0;
 }
-.blue{
-    position: fixed;
-    top: 0;
-    height: 100vh;
-    background-color: #3f3fa8;
+body{
+    min-height: 100vh;
+    background-color: #5352d4;
+    display: flex;
+    justify-content: center;
 }
-.container-fluid{
-    height: 300vh;
+.container{
+    display: flex;
+    width: 80%;
 }
-.white{
-    background-color: white;
-    height: 300vh;
+.d1,.d2{
+    float: left;
+    color: #fff;
 }
-.violet{
-    padding: 10px 60px;
-    width: 100%;
-    height: 100vh;
+.d1{
+    width: 25%;
     background-color: #5655da;
-    margin-left: 150px;
+    padding: 15px;
+    position: sticky;
+}
+.d2{
+    padding: 15px;
+    width: 75%;
+    background-color: white;
+    color: black;
 }
 img{
-    margin-top: 30px;
-    height: 150px;
     width: 150px;
-    border-radius: 100%;
+    height: 150px;
+    border-radius: 50%;
+    margin-left: 50px;
 }
 #txt{
+    font-weight: 850;
     font-size: 25px;
-    margin-top: 25px;
-    font-weight: 750;
-    color: white;
+    margin-left: 50px;
+    margin-top: 35px;
 }
 #txt2{
-    color: white;
-    font-weight: 500;
-    margin-bottom: 25px;
+    margin-left: 50px;
+    margin-top: 10px;
+    font-size: 17px;
 }
-.i{
-    text-decoration: none;
-    font-size: 20px;
-    color: white;
-    margin-right: 30px;
+.icons{
+    margin-left: 35px;
+    margin-top: 40px;
+    font-size: 18px;
 }
-.span{
-    color: white;
-    display: flex;
-    margin-top: 15px;
-    font-size: 15px;
-    font-weight: 650;
+.icons ion-icon{
+    margin-left: 15px;
+}
+.ps{
+    margin-bottom: 20px;
+    margin-left: 50px;
+}
+.ps1{
+    margin-top: 40px;
 }
 #txt3{
+    font-size: 15px;
+    margin-left: 50px;
+}
+.about p{
+    color: red;
+    font-size: 25px;
+    font-weight: 650;
+}
+.about button{
+    margin-right: 50px;
+    background-color: #5352d4;
     color: white;
+    border: none;
+    width: 180px;
+    border-radius: 7px;
+}
+.about{
+    margin-left: 50px;
+    display: flex;
+    margin-top: 50px;
+    justify-content: space-between;
+}
+#txt5{
+    margin-left: 50px;
     margin-top: 40px;
-    font-size: 13px;
+    font-size: 14px;
+}
+.info{
+    margin-left: 50px;
+    font-size: 18px;
+    margin-top: 35px;
+}
+.infop{
+    margin-bottom: 15px;
+}
+.html{
+    display: flex;
+    flex-direction: column;
+}
+input[type="range"]{
+    margin-top: 20px;
+    width: 300px;
+}
+.develop1{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 50px;
+    margin-left: 50px;
+}
+.css{
+    display: flex;
+    flex-direction: column;
+}
+.bootstrap{
+    display: flex;
+    flex-direction: column;
+}
+.develop2{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 50px;
+    margin-left: 50px;
+}
+.sass{
+    display: flex;
+    flex-direction: column;
+}
+.line{
+    margin-top: 50px;
+    width: 100%;
+    height: 1px;
+    background-color: rgba(0, 0, 0, 0.37);
+}
+#txt7{
+    color: red;
+    font-size: 25px;
+    font-weight: 650;
+}
+.form{
+    margin-left: 50px;
+    margin-top: 50px;
+    color: red;
+    font-size: 25px;
+    font-weight: 650;
+}
+input[type="text"]{
+    outline: none;
+    width: 40%;
+    border: none;
+    border-bottom: 1px solid black;
+    padding-bottom: 10px;
+}
+.line1{
+    margin-top: 40px;
+    display: flex;
+    justify-content: space-between;
+}
+.line2{
+    margin-top: 40px;
+    display: flex;
+    justify-content: space-between;
+}
+input[type="text"]:focus{
+    border-bottom: 1px solid rgba(172, 170, 170, 0.226);
+}
+#inp{
+    border-bottom: 1px solid black !important;
+    border: none;
+    height: 200px;
+    outline: none;
+    width: 100%;
+}
+::placeholder{
+    font-size: 15px;
+}
+.form button{
+    height: 35px;
+    margin-top: 25px;
+    border: none;
+    background-color: #5352d4;
+    color: white;
+    width: 120px;
+    border-radius: 3px;
 }
